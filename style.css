@@ -9,7 +9,6 @@ body {
     background-color: #1f2937;
     font-size: 24px;
     color: #F9FAF8; 
-    padding-bottom: 2em;
     align-items: center;
 }
 
@@ -31,5 +30,43 @@ h1 {
 
 .hero {
     display: flex;
+    background-color: #1f2937;
     justify-content: space-evenly;
+    padding: 10% 16%;
+    gap: 50px;
+
+}
+
+#hero-large { 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#hero-small { 
+    font-size: 18px;
+    color: #E5E7Eb;
+    font-weight: lighter;
+}
+
+button { 
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: #F9FAF8;
+    font-weight: bold;
+
+}
+
+.info-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxes { 
+    
 }
